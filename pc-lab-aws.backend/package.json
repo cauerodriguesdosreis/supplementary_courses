@@ -1,0 +1,18 @@
+{
+  "name": "pc-lab-aws.backend",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/professor-correa/pc-lab-aws.backend.git",
+  "author": "lucascorreaa <lucas.lca14@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.13.0"
+  }
+}
